@@ -1,0 +1,5 @@
+CREATE DATABASE authdb;
+CREATE DATABASE walletdb;
+CREATE DATABASE orderdb;
+CREATE DATABASE paymentdb;
+CREATE DATABASE notificationdb;

@@ -1,0 +1,22 @@
+# Build output
+target/
+*.class
+
+# IDE
+
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Secrets: never commit these
+.env
+*.pem
+*.key
+auth-service/src/main/resources/keys/
+
+# Local config repo (pushed as its own repository, see Part 2A)
+config-repo/
+# Logs
+*.log
+logs/
